@@ -44,16 +44,18 @@ Create an entire ETL process in a database & a Power BI dashboard to utilize the
     **Data Exploration – Check Distinct Values**
     # Gender distribution
 <img width="426" height="88" alt="image" src="https://github.com/user-attachments/assets/f6c7dfbc-6cd2-41d5-9301-040777ad061d" />
-    # Contract distribution
+
+   **Contract distribution**
 <img width="501" height="117" alt="image" src="https://github.com/user-attachments/assets/d681fa3a-b204-46ab-905a-bdb43205332e" />
-    # Customer status with revenue
+
+    **Customer status with revenue**
 <img width="640" height="117" alt="image" src="https://github.com/user-attachments/assets/9efdc31f-3d67-4c3b-9826-50569b0f8b72" />
-    # State distribution
+
+    **City distribution**
 <img width="444" height="32104" alt="image" src="https://github.com/user-attachments/assets/1945924e-1af2-4e49-8623-2437e2b53c7a" />
 
 
    **Data Exploration – Check Nulls**
-   --Data Exploration – Check Nulls
 SELECT 
     SUM(CASE WHEN Customer_ID IS NULL THEN 1 ELSE 0 END) AS Customer_ID_Null_Count,
     SUM(CASE WHEN Gender IS NULL THEN 1 ELSE 0 END) AS Gender_Null_Count,
