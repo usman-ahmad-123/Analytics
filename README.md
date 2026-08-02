@@ -348,7 +348,20 @@ o   Enter the Server Name & Database name to connect to SQL Server
 o   Import both vw_ChurnData & vw_JoinData
 
 o   Save the file as Prediction_Data
-    
+
+**✅ In summary:**
+
+Churn Reason → specific cause
+
+Churn Category → grouped causes
+
+stg_churn → staging/raw data table
+
+dbo → default schema in SQL Server
+
+prod_Churn → production-ready churn dataset
+
+db_Churn → database/schema for churn analysis
     
 
 
