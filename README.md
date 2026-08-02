@@ -28,7 +28,7 @@ Create an entire ETL process in a database & a Power BI dashboard to utilize the
   - **STEP 1 – ETL Process in SQL Server**
   - Creating Database
 
-    After installation, you will land on the following screen. Do remember to copy paste the server name somewhere because we will need this at a later stage. Also enable      the checkbox which says “Trust Server Certificate” and then click on Connect
+    After installation, copy paste the server name somewhere because we will need this at a later stage. Also enable the checkbox which says “Trust Server Certificate” and then click on Connect
 
     Once connected, click on NEW QUERY button at the top ribbon and then write below query. This will create a new Database named db_Churn
     CREATE DATABASE db_Churn
