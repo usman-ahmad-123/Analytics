@@ -39,8 +39,10 @@ python-multipart==0.0.32
 referencing==0.37.0
 requests==2.34.2
 rpds-py==2026.6.3
-scikit-learn==1.9.0
+scikit-learn==1.6.1
 scipy==1.18.1
+seaborn==0.13.2
+setuptools==84.0.0
 shap==0.52.0
 six==1.17.0
 slicer==0.0.8
@@ -56,3 +58,4 @@ uvicorn==0.52.4
 watchdog==6.0.0
 websockets==16.1.1
 Werkzeug==3.1.8
+xgboost==1.6.2
